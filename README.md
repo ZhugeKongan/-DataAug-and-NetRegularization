@@ -1,6 +1,6 @@
 
 ## StochDepth
-<img src="https://github.com/clovaai/CutMix-PyTorch/raw/master/img1.PNG" width=50% />
+<img src="https://github.com/ZhugeKongan/-DataAug-and-NetRegularization/blob/main/data/stochdepth.png" width=50% />
 
 ### Usage
 ```python
@@ -11,7 +11,7 @@ model = resnet18_StoDepth_lineardecay(num_classes=100)
 ```
 
 ## label smoothing
-<img src="https://github.com/clovaai/CutMix-PyTorch/raw/master/img1.PNG" width=50% />
+<img src="https://github.com/ZhugeKongan/-DataAug-and-NetRegularization/blob/main/data/image.png" width=50% />
 
 ### Usage
 ```python
@@ -21,7 +21,7 @@ criterion = LabelSmoothingCrossEntropy()
 ...
 ```
 ## Cutout
-<img src="https://github.com/clovaai/CutMix-PyTorch/raw/master/img1.PNG" width=50% />
+<img src="https://github.com/ZhugeKongan/-DataAug-and-NetRegularization/blob/main/data/cutout.png" width=50% />
 
 ### Usage
 ```python
@@ -42,7 +42,7 @@ for _ in range(num_epoch):
 ...
 ```
 ## DropBlock
-<img src="https://github.com/clovaai/CutMix-PyTorch/raw/master/img1.PNG" width=50% />
+<img src="https://github.com/ZhugeKongan/-DataAug-and-NetRegularization/blob/main/data/dropblock.png" width=50% />
 
 ### Usage
 ```python
@@ -58,7 +58,7 @@ self.dropblock = LinearScheduler(
 model = ResNet18(num_classes=100)
 ```
 ## Mixup
-<img src="https://github.com/clovaai/CutMix-PyTorch/raw/master/img1.PNG" width=50% />
+<img src="https://github.com/ZhugeKongan/-DataAug-and-NetRegularization/blob/main/data/mixup.png" width=50% />
 
 ### Usage
 ```python
@@ -76,7 +76,7 @@ from augmented.mixup import mixup_data,mixup_criterion
 ```
 
 ## Manifold Mixup
-<img src="https://github.com/clovaai/CutMix-PyTorch/raw/master/img1.PNG" width=50% />
+<img src="https://github.com/ZhugeKongan/-DataAug-and-NetRegularization/blob/main/data/mainfold_mixup.png" width=50% />
 
 ### Usage
 ```python
@@ -95,7 +95,7 @@ model = ResNet18(num_classes=100)
 ...
 ```
 ## ShakeDrop
-<img src="https://github.com/clovaai/CutMix-PyTorch/raw/master/img1.PNG" width=50% />
+<img src="https://github.com/ZhugeKongan/-DataAug-and-NetRegularization/blob/main/data/shakedrop.png" width=50% />
 
 ### Usage
 ```python
@@ -107,7 +107,7 @@ model = ResNet18(num_classes=100)
 
 ## cutmix
 
-<img src="https://github.com/clovaai/CutMix-PyTorch/raw/master/img1.PNG" width=50% />
+<img src="https://github.com/ZhugeKongan/-DataAug-and-NetRegularization/blob/main/data/cutmix.png" width=50% />
 
 ### Usage
 
